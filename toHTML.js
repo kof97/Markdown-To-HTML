@@ -43,7 +43,7 @@ function markdownToHTML(sourcePath, targetPath, css) {
 
         fs.writeFileSync(target, md, 'utf8');
 
-        console.log(target + ' -------> succee');
+        console.log(target + ' -------> OK');
     }
 }
 
